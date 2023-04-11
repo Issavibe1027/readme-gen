@@ -21,8 +21,8 @@ const questions = [
         type: 'input',
         name: 'github',
         message: 'Please enter your GitHub user.',
-        validate: gitInput => {
-            if (gitInput) {
+        validate: gI => {
+            if (gI) {
                 return true;
             } else {
                 console.log('Please enter your GitHub user!');
